@@ -4,6 +4,7 @@ project (Gibson_Environment)
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
+add_definitions(-D GLM_ENABLE_EXPERIMENTAL)
 
 MESSAGE( STATUS "CMAKE_BINARY_DIR:         " ${CMAKE_BINARY_DIR} )
 MESSAGE( STATUS "CMAKE_SOURCE_DIR:         " ${CMAKE_SOURCE_DIR} )
